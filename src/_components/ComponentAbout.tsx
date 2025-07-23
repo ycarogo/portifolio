@@ -21,7 +21,9 @@ export default function ComponentAbout() {
           </div>
         </div>
         <div className="flex flex-col justify-center text-container text-left">
-          <p className="text-md font-bold mb-2 text-success">Sobre mim</p>
+          <p className="text-md font-bold mb-2 text-success italic">
+            Sobre mim
+          </p>
           <div className="text-sidebar-foreground text-lg font-bold">
             Desenvolvedor Web com experiência sólida em desenvolvimento
             full-stack, especializado em PHP, Angular e React

@@ -21,7 +21,7 @@ export const habilidades = [
   },
   {
     name: "Tailwind",
-    image: "/image/Tailwind.svg",
+    image: "/image/tailwind.svg",
   },
   {
     name: "Angular",
