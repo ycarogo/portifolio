@@ -11,7 +11,6 @@ export default function CardProject({
   name,
   description,
   image,
-  link,
   date,
   technologies,
 }: CardProjectProps) {
