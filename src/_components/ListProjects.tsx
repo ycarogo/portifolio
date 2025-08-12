@@ -11,7 +11,7 @@ export default function ListProjects() {
   };
 
   return (
-    <div className="w-full gap-4 p-10 py-20">
+    <div id="projects" className="w-full gap-4 p-10 py-20">
       <div className="w-full p-6">
         <div className="relative flex flex-col justify-center text-container">
           <span className="absolute -bottom-10 -left-17">
@@ -24,7 +24,7 @@ export default function ListProjects() {
         </div>
       </div>
       <div className="w-full">
-        <div className="grid grid-cols-3 gap-4 w-full">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-4 w-full">
           {arrayProjects.map((project) => (
             <CardProject key={project.name} {...project} />
           ))}

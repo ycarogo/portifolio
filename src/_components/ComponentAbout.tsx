@@ -5,8 +5,14 @@ export default function ComponentAbout() {
   const linkCV =
     "https://drive.google.com/file/d/1-6GhDeE3ac4whWq36YtZUBbVInmJQU_I/view?usp=sharing";
   return (
-    <div className="flex w-full bg-card rounded-2xl">
-      <div className=" grid grid-cols-2 gap-4 p-3 py-10">
+    <div
+      id="about"
+      className="flex w-full bg-card rounded-2xl relative mt-30 md:mt-0 "
+    >
+      <span className="absolute top-[-90px] left-[40%] rotate-140">
+        <img src="/image/arrow.svg" alt="" />
+      </span>
+      <div className=" grid md:grid-cols-2 grid-cols-1  gap-4 p-3 py-10">
         <div className="image-container flex items-center justify-center">
           <div className="grid grid-cols-3 gap-4">
             {habilidades.map((habilidade) => (
