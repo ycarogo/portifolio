@@ -9,7 +9,7 @@ export default function ContentHome() {
             Olá, me chamo <span className="text-primary">Ycaro</span>
           </h2>
           <div className="text-sidebar-foreground text-2xl mt-4 font-bold">
-            Sou um desenvolvedor Full Stack!
+            Sou um desenvolvedor Web Full Stack!
           </div>
           <p className="text-sidebar-foreground text-md mt-4">
             Desde 2019 atuando com desenvolvimento web com foco em sistemas
